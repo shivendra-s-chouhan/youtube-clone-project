@@ -63,9 +63,7 @@
     height: 40px;
     width: 66px;
     background-color: rgb(238, 237, 237);
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(177, 174, 174);
+    border: 1px solid rgb(177, 174, 174);
     margin-left: -1px;
     margin-right: 10px;
     cursor: pointer;
@@ -94,7 +92,7 @@
 .youtube-apps-icon-container .tooltip,
 .notifications-icon-container .tooltip
 {
-    font-family: Roboto, Arial;
+    
     position: absolute;
     background-color: gray;
     color: white;
@@ -170,7 +168,6 @@
     right: -5px;
     background-color: rgb(216, 14, 14);
     color: white;
-    font-family: Roboto, Arial;
     font-size: 11px;
     border-radius: 50%;
     padding-left: 5px;
