@@ -59,6 +59,7 @@
     /* width: 200px; */
     pointer-events: none;
     white-space: nowrap;
+    transition: opacity 0.25s;
 }
 .channel-img{
     flex: 1;
